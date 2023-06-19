@@ -1,0 +1,49 @@
+{
+  "name": "country-state-lga",
+  "version": "1.0.0",
+  "description": "country-utils is a utility library that provides functions to retrieve country-specific information such as capitals, states, country codes, and dial codes. Simplify your application's country-related operations with this easy-to-use package. Perfect for internationalization, address forms, and other country-centric use cases.",
+  "keywords": [
+    "country",
+    "utils",
+    "utility",
+    "information",
+    "capitals",
+    "states",
+    "codes",
+    "dial",
+    "codes",
+    "internationalization",
+    "addresses",
+    "forms",
+    "data",
+    "geographic",
+    "localization",
+    "country-specific",
+    "regions",
+    "countries",
+    "geography",
+    "phone",
+    "codes",
+    "country",
+    "data"
+  ],
+  "author": "Aminu Abdulmalik",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "module": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miawoltn/country-utils.git"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.2",
+    "@types/node": "^16.9.4",
+    "ts-jest": "^29.1.0",
+    "typescript": "^4.4.4"
+  }
+}

@@ -1,0 +1,45 @@
+import { IState } from '../interfaces';
+const states: { [countryCode: string]: IState[] } = {
+  NG: [
+    { name: "Abia", code: "AB" },
+    { name: "Adamawa", code: "AD" },
+    { name: "Akwa Ibom", code: "AK" },
+    { name: "Anambra", code: "AN" },
+    { name: "Bauchi", code: "BA" },
+    { name: "Bayelsa", code: "BY" },
+    { name: "Benue", code: "BN" },
+    { name: "Borno", code: "BO" },
+    { name: "Cross River", code: "CR" },
+    { name: "Delta", code: "DT" },
+    { name: "Ebonyi", code: "EB" },
+    { name: "Edo", code: "ED" },
+    { name: "Ekiti", code: "EK" },
+    { name: "Enugu", code: "EN" },
+    { name: "Gombe", code: "GM" },
+    { name: "Imo", code: "IM" },
+    { name: "Jigawa", code: "JG" },
+    { name: "Kaduna", code: "KD" },
+    { name: "Kano", code: "KN" },
+    { name: "Katsina", code: "KT" },
+    { name: "Kebbi", code: "KB" },
+    { name: "Kogi", code: "KG" },
+    { name: "Kwara", code: "KW" },
+    { name: "Lagos", code: "LA" },
+    { name: "Nasarawa", code: "NS" },
+    { name: "Niger", code: "NW" },
+    { name: "Ogun", code: "OG" },
+    { name: "Ondo", code: "ON" },
+    { name: "Osun", code: "OS" },
+    { name: "Oyo", code: "OY" },
+    { name: "Plateau", code: "PL" },
+    { name: "Rivers", code: "RV" },
+    { name: "Sokoto", code: "SO" },
+    { name: "Taraba", code: "TR" },
+    { name: "Yobe", code: "YB" },
+    { name: "Zamfara", code: "ZF" },
+    { name: "FCT", code: "FC" },
+  ]
+};
+
+
+export default states;
