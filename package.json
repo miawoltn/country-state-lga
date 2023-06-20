@@ -1,6 +1,6 @@
 {
   "name": "country-state-lga",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "country-state-lga is a utility library that provides functions to retrieve country-specific information such as capitals, states, lgas, and country codes. Simplify your application's country-related operations with this easy-to-use package. Perfect for internationalization, address forms, and other country-centric use cases.",
   "keywords": [
     "country", "state", "lga", "utility", "codes", "internationalization", "addresses", "forms", "localization"
@@ -18,7 +18,7 @@
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/miawoltn/country-utils.git"
+    "url": "https://github.com/miawoltn/country-state-lga.git"
   },
   "devDependencies": {
     "@types/jest": "^29.5.2",
