@@ -8,9 +8,11 @@ export interface ICountry {
 export interface IState {
     name: string;
     code: string;
-    lgas?: ILga[]
+    countryCode?: string;
+    lgas?: ILga[];
 }
 
 export interface ILga {
   name: string;
+  stateCode?: string;
 }
